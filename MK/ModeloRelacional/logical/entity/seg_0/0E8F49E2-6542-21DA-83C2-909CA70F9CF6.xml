@@ -1,0 +1,52 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0E8F49E2-6542-21DA-83C2-909CA70F9CF6" name="Projeto">
+<createdBy>Geral</createdBy>
+<createdTime>2023-03-04 01:25:34 UTC</createdTime>
+<ownerDesignName>ModeloRelacional</ownerDesignName>
+<engineerTo>
+<item key="FFB3881D-0F91-F83D-3F2F-E832DA1F2143" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="nome " id="9FF61117-866E-526C-D1FB-E6F151164A3B">
+<createdBy>Geral</createdBy>
+<createdTime>2023-03-10 23:25:42 UTC</createdTime>
+<ownerDesignName>ModeloRelacional</ownerDesignName>
+<engineerTo>
+<item key="FFB3881D-0F91-F83D-3F2F-E832DA1F2143" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DataInicio" id="817A5079-C88B-3ACD-69BA-28023FDE2118">
+<createdBy>Geral</createdBy>
+<createdTime>2023-03-10 23:26:37 UTC</createdTime>
+<ownerDesignName>ModeloRelacional</ownerDesignName>
+<engineerTo>
+<item key="FFB3881D-0F91-F83D-3F2F-E832DA1F2143" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Gerente" id="9D28A253-7A5D-1BF7-7B4F-AA429D84DA61">
+<createdBy>Geral</createdBy>
+<createdTime>2023-03-10 23:26:55 UTC</createdTime>
+<ownerDesignName>ModeloRelacional</ownerDesignName>
+<engineerTo>
+<item key="FFB3881D-0F91-F83D-3F2F-E832DA1F2143" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

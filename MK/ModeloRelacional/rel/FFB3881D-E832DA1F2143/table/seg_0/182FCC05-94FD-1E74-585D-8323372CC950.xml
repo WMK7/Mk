@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="182FCC05-94FD-1E74-585D-8323372CC950" name="Possui">
+<createdBy>Geral</createdBy>
+<createdTime>2023-03-10 23:51:48 UTC</createdTime>
+<ownerDesignName>ModeloRelacional</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Peça_Peça_ID" id="4FE3F793-F0A0-CBD8-001B-BE164165216F">
+<createdBy>Geral</createdBy>
+<createdTime>2023-03-10 23:51:48 UTC</createdTime>
+<ownerDesignName>ModeloRelacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="81AE2E72-ED59-654D-2D8C-AEF79B523E1B" referredColumn="B62BF9E0-5433-14EA-D17C-2939CE947649"/>
+</associations>
+</Column>
+<Column name="Fornecedor_CNPJ" id="8D4248D7-AE9E-7ADF-12E2-E7D8E6A364DB">
+<createdBy>Geral</createdBy>
+<createdTime>2023-03-10 23:51:48 UTC</createdTime>
+<ownerDesignName>ModeloRelacional</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AE0C2884-47DF-41C4-068A-D22642EF1044" referredColumn="6FB462DF-2D24-12D0-B58C-9B0FF9D03B3B"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="00276E9C-CFE5-C790-EB1E-581BB3E4A9BB" name="Possui_PK">
+<createdBy>Geral</createdBy>
+<createdTime>2023-03-10 23:51:48 UTC</createdTime>
+<ownerDesignName>ModeloRelacional</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4FE3F793-F0A0-CBD8-001B-BE164165216F"/>
+<colUsage columnID="8D4248D7-AE9E-7ADF-12E2-E7D8E6A364DB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="90CA2A75-6C7E-866D-351C-7B849B84C15A" name="Possui_Peça_FK">
+<createdBy>Geral</createdBy>
+<createdTime>2023-03-10 23:51:48 UTC</createdTime>
+<generatorID>E6112040-73AA-BE02-2BBB-ED815BACCA6A</generatorID>
+<ownerDesignName>ModeloRelacional</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4FE3F793-F0A0-CBD8-001B-BE164165216F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="93CB424D-9B05-0A76-004E-BBD7384796E5" name="Possui_Fornecedor_FK">
+<createdBy>Geral</createdBy>
+<createdTime>2023-03-10 23:51:48 UTC</createdTime>
+<generatorID>E6112040-73AA-BE02-2BBB-ED815BACCA6A</generatorID>
+<ownerDesignName>ModeloRelacional</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8D4248D7-AE9E-7ADF-12E2-E7D8E6A364DB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

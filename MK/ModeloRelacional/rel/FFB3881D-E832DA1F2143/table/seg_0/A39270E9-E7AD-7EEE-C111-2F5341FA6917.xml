@@ -1,0 +1,67 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A39270E9-E7AD-7EEE-C111-2F5341FA6917" name="Fornecedor">
+<createdBy>Geral</createdBy>
+<createdTime>2023-03-10 23:51:48 UTC</createdTime>
+<generatorID>B8DC515F-026F-FD74-B209-E265256E3A8B</generatorID>
+<ownerDesignName>ModeloRelacional</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CNPJ" id="6FB462DF-2D24-12D0-B58C-9B0FF9D03B3B">
+<createdBy>Geral</createdBy>
+<createdTime>2023-03-10 23:51:48 UTC</createdTime>
+<generatorID>ACC92234-4B72-7E9E-96AB-9D9ED3F5117F</generatorID>
+<ownerDesignName>ModeloRelacional</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nome" id="0249DC25-BB2E-44E5-B2C5-C4CF36626EF7">
+<createdBy>Geral</createdBy>
+<createdTime>2023-03-10 23:51:48 UTC</createdTime>
+<generatorID>198CB69D-F4F0-0C06-0649-3672C18842F9</generatorID>
+<ownerDesignName>ModeloRelacional</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Endereco*" id="89AD1BE7-740C-1F73-56C2-05B269577BA8">
+<createdBy>Geral</createdBy>
+<createdTime>2023-03-10 23:51:48 UTC</createdTime>
+<commentInRDBMS><![CDATA[Multivalorado]]></commentInRDBMS>
+<generatorID>627AD4BE-43F6-D8EC-2A7E-23D2F698714E</generatorID>
+<ownerDesignName>ModeloRelacional</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Telefone*" id="D7B151AB-36ED-5DA0-EC1C-BD85CC162B30">
+<createdBy>Geral</createdBy>
+<createdTime>2023-03-10 23:51:48 UTC</createdTime>
+<commentInRDBMS><![CDATA[Multivalorado]]></commentInRDBMS>
+<generatorID>F40D7348-5495-C834-003F-1F23EC60230E</generatorID>
+<ownerDesignName>ModeloRelacional</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6A0B92CE-D23B-84FD-802F-3F1D115CABC2" name="Fornecedor_PK">
+<createdBy>Geral</createdBy>
+<createdTime>2023-03-10 23:51:48 UTC</createdTime>
+<generatorID>BBBC7D5E-9BAC-4F0C-C837-D6DECDA1B435</generatorID>
+<ownerDesignName>ModeloRelacional</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6FB462DF-2D24-12D0-B58C-9B0FF9D03B3B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

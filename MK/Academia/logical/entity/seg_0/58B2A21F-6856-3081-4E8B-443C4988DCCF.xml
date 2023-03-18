@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="58B2A21F-6856-3081-4E8B-443C4988DCCF" name="Turma">
+<createdBy>Geral</createdBy>
+<createdTime>2023-03-04 02:34:12 UTC</createdTime>
+<ownerDesignName>Academia</ownerDesignName>
+<engineerTo>
+<item key="13944576-5140-ABF9-1724-C79A6E1F266F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Numero de Alunos" id="7FA90787-BE97-6661-B233-1F9AB62AC061">
+<createdBy>Geral</createdBy>
+<createdTime>2023-03-04 02:37:04 UTC</createdTime>
+<ownerDesignName>Academia</ownerDesignName>
+<engineerTo>
+<item key="13944576-5140-ABF9-1724-C79A6E1F266F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Horario" id="96018133-9878-1C80-5735-9DE59021AE2C">
+<createdBy>Geral</createdBy>
+<createdTime>2023-03-04 02:37:40 UTC</createdTime>
+<ownerDesignName>Academia</ownerDesignName>
+<engineerTo>
+<item key="13944576-5140-ABF9-1724-C79A6E1F266F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Duracao da Aula" id="D23CA970-E925-33A0-D784-4D8375166DB9">
+<createdBy>Geral</createdBy>
+<createdTime>2023-03-04 02:37:52 UTC</createdTime>
+<ownerDesignName>Academia</ownerDesignName>
+<engineerTo>
+<item key="13944576-5140-ABF9-1724-C79A6E1F266F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Data Inicial " id="BEA14B00-DC63-CB83-B927-D32F075D29C2">
+<createdBy>Geral</createdBy>
+<createdTime>2023-03-04 02:38:20 UTC</createdTime>
+<ownerDesignName>Academia</ownerDesignName>
+<engineerTo>
+<item key="13944576-5140-ABF9-1724-C79A6E1F266F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Data Final" id="DC1F8873-0F7E-FAF9-8598-717E0B4E47C7">
+<createdBy>Geral</createdBy>
+<createdTime>2023-03-04 02:38:47 UTC</createdTime>
+<ownerDesignName>Academia</ownerDesignName>
+<engineerTo>
+<item key="13944576-5140-ABF9-1724-C79A6E1F266F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Tipo de Atividade*" id="00B0CDFC-3F68-359D-39C2-AA39951B74C5">
+<createdBy>Geral</createdBy>
+<createdTime>2023-03-04 02:39:20 UTC</createdTime>
+<commentInRDBMS><![CDATA[Multivalorado
+]]></commentInRDBMS>
+<ownerDesignName>Academia</ownerDesignName>
+<engineerTo>
+<item key="13944576-5140-ABF9-1724-C79A6E1F266F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

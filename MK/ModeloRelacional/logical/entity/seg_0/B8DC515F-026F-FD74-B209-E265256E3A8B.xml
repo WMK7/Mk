@@ -1,0 +1,78 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B8DC515F-026F-FD74-B209-E265256E3A8B" name="Fornecedor">
+<createdBy>Geral</createdBy>
+<createdTime>2023-03-04 01:23:03 UTC</createdTime>
+<ownerDesignName>ModeloRelacional</ownerDesignName>
+<engineerTo>
+<item key="FFB3881D-0F91-F83D-3F2F-E832DA1F2143" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="CNPJ" id="ACC92234-4B72-7E9E-96AB-9D9ED3F5117F">
+<createdBy>Geral</createdBy>
+<createdTime>2023-03-04 02:02:55 UTC</createdTime>
+<ownerDesignName>ModeloRelacional</ownerDesignName>
+<engineerTo>
+<item key="FFB3881D-0F91-F83D-3F2F-E832DA1F2143" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nome" id="198CB69D-F4F0-0C06-0649-3672C18842F9">
+<createdBy>Geral</createdBy>
+<createdTime>2023-03-04 02:03:17 UTC</createdTime>
+<ownerDesignName>ModeloRelacional</ownerDesignName>
+<engineerTo>
+<item key="FFB3881D-0F91-F83D-3F2F-E832DA1F2143" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Endereco*" id="627AD4BE-43F6-D8EC-2A7E-23D2F698714E">
+<createdBy>Geral</createdBy>
+<createdTime>2023-03-04 02:03:30 UTC</createdTime>
+<commentInRDBMS><![CDATA[Multivalorado]]></commentInRDBMS>
+<ownerDesignName>ModeloRelacional</ownerDesignName>
+<engineerTo>
+<item key="FFB3881D-0F91-F83D-3F2F-E832DA1F2143" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Telefone*" id="F40D7348-5495-C834-003F-1F23EC60230E">
+<createdBy>Geral</createdBy>
+<createdTime>2023-03-04 02:04:14 UTC</createdTime>
+<commentInRDBMS><![CDATA[Multivalorado]]></commentInRDBMS>
+<ownerDesignName>ModeloRelacional</ownerDesignName>
+<engineerTo>
+<item key="FFB3881D-0F91-F83D-3F2F-E832DA1F2143" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="BBBC7D5E-9BAC-4F0C-C837-D6DECDA1B435" name="Fornecedor PK">
+<createdBy>Geral</createdBy>
+<createdTime>2023-03-04 02:05:51 UTC</createdTime>
+<ownerDesignName>ModeloRelacional</ownerDesignName>
+<engineerTo>
+<item key="FFB3881D-0F91-F83D-3F2F-E832DA1F2143" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>ACC92234-4B72-7E9E-96AB-9D9ED3F5117F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

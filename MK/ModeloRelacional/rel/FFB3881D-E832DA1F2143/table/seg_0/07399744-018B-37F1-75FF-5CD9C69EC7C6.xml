@@ -1,0 +1,67 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="07399744-018B-37F1-75FF-5CD9C69EC7C6" name="Peça">
+<createdBy>Geral</createdBy>
+<createdTime>2023-03-10 23:51:48 UTC</createdTime>
+<generatorID>ADAF7BFC-0CE5-2E56-E31E-60CF1B380B17</generatorID>
+<ownerDesignName>ModeloRelacional</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Nome" id="1B238148-1504-4E8F-2898-CB649F538C57">
+<createdBy>Geral</createdBy>
+<createdTime>2023-03-10 23:51:48 UTC</createdTime>
+<generatorID>F7EF1E08-C1B2-A166-C4DE-1B3B04CDDEC7</generatorID>
+<ownerDesignName>ModeloRelacional</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="codigo" id="31498997-BE9F-20D6-33E5-66865937C064">
+<createdBy>Geral</createdBy>
+<createdTime>2023-03-10 23:51:48 UTC</createdTime>
+<generatorID>FB981603-644B-128F-53CC-D9EC5177581A</generatorID>
+<ownerDesignName>ModeloRelacional</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Descricao" id="C04F9E82-527E-1ADE-35F3-B7E3F0766BD5">
+<createdBy>Geral</createdBy>
+<createdTime>2023-03-10 23:51:48 UTC</createdTime>
+<generatorID>99A806CF-9828-1928-DEAB-9C5CE9B9F3D7</generatorID>
+<ownerDesignName>ModeloRelacional</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Peça_ID" id="B62BF9E0-5433-14EA-D17C-2939CE947649">
+<createdBy>Geral</createdBy>
+<createdTime>2023-03-10 23:51:48 UTC</createdTime>
+<ownerDesignName>ModeloRelacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E3C641A1-7D83-AB4F-8C72-25D577353031" name="Peça_PK">
+<createdBy>Geral</createdBy>
+<createdTime>2023-03-10 23:51:48 UTC</createdTime>
+<ownerDesignName>ModeloRelacional</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="B62BF9E0-5433-14EA-D17C-2939CE947649"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

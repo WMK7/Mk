@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A5F4E44A-8DB8-201A-3B56-028B2BED7336" name="Contem">
+<createdBy>Geral</createdBy>
+<createdTime>2023-03-10 23:51:48 UTC</createdTime>
+<ownerDesignName>ModeloRelacional</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Projeto_Projeto_ID" id="FAAB4130-58B2-A209-32B2-C6057C5F50B6">
+<createdBy>Geral</createdBy>
+<createdTime>2023-03-10 23:51:48 UTC</createdTime>
+<ownerDesignName>ModeloRelacional</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A9ECC38B-A1FB-2478-CE85-9A05201D01ED" referredColumn="F70035B4-C4B7-A25C-D8D1-F39D2FB5A3D9"/>
+</associations>
+</Column>
+<Column name="Fornecedor_CNPJ" id="129DAAA3-A130-F441-EF58-DE346F2FFC00">
+<createdBy>Geral</createdBy>
+<createdTime>2023-03-10 23:51:48 UTC</createdTime>
+<ownerDesignName>ModeloRelacional</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="94EA71F7-C759-51BB-AB10-87E3248C3082" referredColumn="6FB462DF-2D24-12D0-B58C-9B0FF9D03B3B"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0A8B88A8-A5F9-B9FF-58A0-34EA95B08A74" name="Contem_PK">
+<createdBy>Geral</createdBy>
+<createdTime>2023-03-10 23:51:48 UTC</createdTime>
+<ownerDesignName>ModeloRelacional</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FAAB4130-58B2-A209-32B2-C6057C5F50B6"/>
+<colUsage columnID="129DAAA3-A130-F441-EF58-DE346F2FFC00"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CC171AFA-85F3-76D9-A01B-D47DE9C7083A" name="Contem_Projeto_FK">
+<createdBy>Geral</createdBy>
+<createdTime>2023-03-10 23:51:48 UTC</createdTime>
+<generatorID>30C7F6FD-D998-CC0F-1911-8D7C3DB39A43</generatorID>
+<ownerDesignName>ModeloRelacional</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FAAB4130-58B2-A209-32B2-C6057C5F50B6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A474A428-C5B9-94E1-EDF0-AA150D2F1681" name="Contem_Fornecedor_FK">
+<createdBy>Geral</createdBy>
+<createdTime>2023-03-10 23:51:48 UTC</createdTime>
+<generatorID>30C7F6FD-D998-CC0F-1911-8D7C3DB39A43</generatorID>
+<ownerDesignName>ModeloRelacional</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="129DAAA3-A130-F441-EF58-DE346F2FFC00"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

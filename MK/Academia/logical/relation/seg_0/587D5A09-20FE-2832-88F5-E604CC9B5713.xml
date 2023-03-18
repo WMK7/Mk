@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Orienta" directorySegmentName="seg_0" id="587D5A09-20FE-2832-88F5-E604CC9B5713">
+<createdBy>Geral</createdBy>
+<createdTime>2023-03-04 03:08:29 UTC</createdTime>
+<ownerDesignName>Academia</ownerDesignName>
+<engineerTo>
+<item key="13944576-5140-ABF9-1724-C79A6E1F266F" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>E0513CD1-6B62-9E19-08CD-B0B954A61451</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>58B2A21F-6856-3081-4E8B-443C4988DCCF</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

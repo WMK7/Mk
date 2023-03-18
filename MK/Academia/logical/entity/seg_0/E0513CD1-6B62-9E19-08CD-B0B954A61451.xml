@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E0513CD1-6B62-9E19-08CD-B0B954A61451" name="Instrutor">
+<createdBy>Geral</createdBy>
+<createdTime>2023-03-04 02:34:38 UTC</createdTime>
+<ownerDesignName>Academia</ownerDesignName>
+<engineerTo>
+<item key="13944576-5140-ABF9-1724-C79A6E1F266F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Nome" id="76311F4A-925A-5CA9-B45F-2CC47D75CC58">
+<createdBy>Geral</createdBy>
+<createdTime>2023-03-04 02:40:16 UTC</createdTime>
+<ownerDesignName>Academia</ownerDesignName>
+<engineerTo>
+<item key="13944576-5140-ABF9-1724-C79A6E1F266F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Rg" id="8977FDBE-7DD1-1102-FEB6-9748D1D24095">
+<createdBy>Geral</createdBy>
+<createdTime>2023-03-04 02:40:23 UTC</createdTime>
+<ownerDesignName>Academia</ownerDesignName>
+<engineerTo>
+<item key="13944576-5140-ABF9-1724-C79A6E1F266F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Data de Nascimento" id="D869BC84-74BD-3CCA-8A1A-A3DA31E3D1C5">
+<createdBy>Geral</createdBy>
+<createdTime>2023-03-04 02:40:35 UTC</createdTime>
+<ownerDesignName>Academia</ownerDesignName>
+<engineerTo>
+<item key="13944576-5140-ABF9-1724-C79A6E1F266F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Titulacao" id="A23EB3CF-4B2B-AC29-CE31-64AB52FF4F61">
+<createdBy>Geral</createdBy>
+<createdTime>2023-03-04 02:41:11 UTC</createdTime>
+<ownerDesignName>Academia</ownerDesignName>
+<engineerTo>
+<item key="13944576-5140-ABF9-1724-C79A6E1F266F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Telefone*" id="80673EEB-6872-FD36-11C7-1A99B212A563">
+<createdBy>Geral</createdBy>
+<createdTime>2023-03-04 02:41:24 UTC</createdTime>
+<commentInRDBMS><![CDATA[Multivalorado]]></commentInRDBMS>
+<ownerDesignName>Academia</ownerDesignName>
+<engineerTo>
+<item key="13944576-5140-ABF9-1724-C79A6E1F266F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>
